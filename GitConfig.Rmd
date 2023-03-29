@@ -1,0 +1,18 @@
+Github configureation
+
+Check https://andrewmaclachlan.github.io/CASA0005repo/git-github-and-rmarkdown.html
+
+Token: Classical
+
+```{r setup, include=FALSE}
+library(usethis)
+create_github_token()
+```
+
+
+
+```{r setup, include=FALSE}
+library(gitcreds)
+gitcreds_set()
+```
+
