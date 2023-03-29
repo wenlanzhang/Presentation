@@ -328,4 +328,8 @@ knitr::include_graphics('Image/river2.JPG')
 ```
 ]
 
+```{r include=FALSE}
+library(renderthis)
+renderthis::to_pdf("index.html")
+```
 
