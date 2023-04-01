@@ -318,7 +318,7 @@ knitr::include_graphics("Image/Animal.JPG")
 
 **Animals**
 
-* can be used for identifying informal area
+* can be used for identifying informal area from SVI
 ]
 
 ---
@@ -339,7 +339,7 @@ knitr::include_graphics("Image/Market.JPG")
 
 **Commercial activities**
 
-* Umbrella - market and trade
+* Umbrella can be used for identifying informal trades from SVI
 
 ---
 
@@ -352,7 +352,7 @@ knitr::include_graphics("Image/Market.JPG")
 - International Organisation： upgrading projects
 - Government：minimal weather prediction (people don’t believe)
 
-###Response
+### Response
 - Individual：people move , elevation, steps in front of door 
 - Community：  WhatsApp message, Facebook post, 
 - NGO：KDI – fundraising and Material support 
@@ -370,7 +370,7 @@ knitr::include_graphics("Image/Market.JPG")
 - International Organisation：
 - Government:
 
-###Reduction
+### Reduction
 - Individual: 
 - Community: 
 - NGO: awareness, education workshop 
