@@ -25,6 +25,7 @@ library(xaringan)
 library(xaringanExtra)
 library(knitr)
 
+
 hook_source <- knitr::knit_hooks$get('source')
 knitr::knit_hooks$set(source = function(x, options) {
   x <- stringr::str_replace(x, "^[[:blank:]]?([^*].+?)[[:blank:]]*#<<[[:blank:]]*$", "*\\1")
@@ -66,6 +67,11 @@ background-position: center
 
 ```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
 library(fontawesome)
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+library(fs)
+library(here)
 ```
 
  
@@ -141,6 +147,13 @@ knitr::include_graphics('Image/FrameWork.png')
 
 ---
 
+class: inverse, center, middle
+
+# Fun question: 
+# How many seasons do places near the Equator have?
+
+---
+
 # Background - Case study
 
 ```{r echo=FALSE, out.width='60%', fig.align='center'}
@@ -157,13 +170,6 @@ Nairobi, Kenya
 
 ---
 
-class: inverse, center, middle
-
-# Fun question: 
-# How many seasons do places near the Equator have?
-
----
-
 # Fieldtrip design
 
 ### Local collaborator: Kounkuey Design Initiative (KDI)
@@ -171,7 +177,8 @@ class: inverse, center, middle
   * A community development NGO
   * Projects in Nairobi - Slum upgrading:  
   internet accessibility, public space, nature-based solutions, drainage installation
-  * local experts hired
+  * Local experts hired
+  residents still live in Kibrea
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -187,7 +194,7 @@ knitr::include_graphics('Image/Allan.JPG')
 
 ---
 
-# Fieldtrip spontaneous meetup
+# Fieldtrip design (spontaneous meetup)
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -208,8 +215,9 @@ knitr::include_graphics('Image/Uni.jpg')
 #### Technical University of Kenya	
 
   * Participatory flood modelling for negotiation and planning in urban informal settlements
-
 ]
+
+Thanks to Mr.Mark Ojal for the connection
 
 ---
 
@@ -340,42 +348,7 @@ knitr::include_graphics("Image/Market.JPG")
 **Commercial activities**
 
 * Umbrella can be used for identifying informal trades from SVI
-
----
-
-# Observations - Trust transects
-
-### Flood Prevention
-- Individual： Clean waste in the drainage, sack bags and soil, dig drainage
-- Community： WhatsApp message, Facebook post, Clean waste in the drainage
-- NGO： Set flag for information exchange, upgrading projects, Posters
-- International Organisation： upgrading projects
-- Government：minimal weather prediction (people don’t believe)
-
-### Response
-- Individual：people move , elevation, steps in front of door 
-- Community：  WhatsApp message, Facebook post, 
-- NGO：KDI – fundraising and Material support 
-- International Organisation： red cross
-- Government：
-
----
-
-# Observations - Trust transects
-
-### Rescue
-- Individual: act, phone call 
-- Community: community level 
-- NGO： 
-- International Organisation：
-- Government:
-
-### Reduction
-- Individual: 
-- Community: 
-- NGO: awareness, education workshop 
-- International Organisation： 
-- Government: no implementation, corruption, slow, and reluctant
+* High buildings within slums might be considered to be more risky (?)
 
 ---
 
@@ -419,7 +392,7 @@ knitr::include_graphics("Image/Gabion.JPG")
 ```
 
 **Gabion**
-* 
+* Flood prevention
 ]
 
 .pull-right[
@@ -428,12 +401,12 @@ knitr::include_graphics("Image/Drainage.JPG")
 ```
 
 **Drainage**
-* 
+* Flood prevention
 ]
 
 ---
 
-# KDI Projects - School upgrading
+# KDI Projects - School Upgrading
 
 .pull-left[
 
@@ -456,7 +429,7 @@ knitr::include_graphics("Image/PSchool1.JPG")
 
 ---
 
-# Observations - FLooding cause
+# Observations - FLooding Cause
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
@@ -465,9 +438,12 @@ knitr::include_graphics("Image/RiverBed.JPEG")
 ]
 
 .pull-right[
-## Public Space Project
 
-### Industry 
+## Physical Reason
+
+### Rainy season
+
+### Industry area
 
 ### Illegal dumping
 
@@ -475,6 +451,33 @@ knitr::include_graphics("Image/RiverBed.JPEG")
 ]
 
 ---
+
+# Observations - Trust transects
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Trust.png")
+```
+
+* Key word  from 'Messy maps: Qualitative GIS representations of resilience'
+
+---
+
+# Data Collected
+
+- City Raster: Flood Risk, Precipitation, SRTM, Vegetation Cover
+  
+- City Vector: Building Footprint, Dumpsites, Informal Settlements, Landuse, 
+  River&Channel, Neighborhoods, Parks, Population, Railway, Roads, Schools, Sewer
+  
+- River 500m Buffer Vector: Universities, Rural Agriculture, Population, 
+  Ongoing Projects, Landuse, informal settlements, Dumpsites etc
+  
+- Informal Settlements Raster: Orthomosaic, Flood Extent
+
+- Informal Settlements Vector: TBC
+
+---
+
 # Reflections
 
 1. City, river and informal settlements scale analysis
@@ -502,22 +505,47 @@ knitr::include_graphics("Image/RiverBed.JPEG")
 
 ---
 
-# Data Collected
+# Reflections - Indicators for FRA
 
-- City Raster: Flood Risk, Precipitation, SRTM, Vegetation Cover
-  
-- City Vector: Building Footprint, Dumpsites, Informal Settlements, Landuse, 
-  River&Channel, Neighborhoods, Parks, Population, Railway, Roads, Schools, Sewer
-  
-- River 500m Buffer Vector: Universities, Rural Agriculture, Population, 
-  Ongoing Projects, Landuse, informal settlements, Dumpsites etc
-  
-- Informal Settlements Raster: Orthomosaic, Flood Extent
-
-- Informal Settlements Vector: TBC
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics("Image/Indicators.png")
+```
 
 ---
 
+# Expected Result 
+
+2 level of study? for NGO and UN-Habitact
+
+---
+
+# Expected Result 
+
+Risk Map
+Frame Work
+
+---
+
+class: inverse, center, middle
+
+# Fun question: 
+# How many seasons do places near the Equator have?
+
+## 2 Winter and 2 Summer? 
+
+---
+
+```{r echo=FALSE}
+#read in data
+read_excel(here("tables", "abbreviations.xlsx"))%>%
+  # arrange(Individual) %>%  # i.e. alphabetical order by Term
+  knitr::kable(booktabs = TRUE)%>% 
+  kable_styling(position = "center")%>%
+  # any specifc row changes you want
+    row_spec(., row=0, bold = TRUE)
+```
+
+---
 
 <!--
 ```{r include=FALSE}
