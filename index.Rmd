@@ -485,13 +485,13 @@ knitr::include_graphics("Image/Drainage.JPG")
 .pull-left[
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/PSchool.JPG")
+knitr::include_graphics("Image/PSchool.jpg")
 ```
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/PSchool1.JPG")
+knitr::include_graphics("Image/PSchool1.jpg")
 ```
 ]
 
