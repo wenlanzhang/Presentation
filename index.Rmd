@@ -182,13 +182,13 @@ Nairobi, Kenya
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('Image/Workshop.JPG')
+knitr::include_graphics('Image/Workshop.jpg')
 ```
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('Image/Allan.JPG')
+knitr::include_graphics('Image/Allan.jpg')
 ```
 ]
 
