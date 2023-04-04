@@ -217,7 +217,7 @@ knitr::include_graphics('Image/Uni.jpg')
   * Participatory flood modelling for negotiation and planning in urban informal settlements
 ]
 
-Thanks to Mr.Mark Ojal for the connection
+Thanks to **Dr.Faith Taylor** and **Mr.Mark Ojal** for the connection
 
 ---
 
@@ -290,14 +290,14 @@ knitr::include_graphics("Image/UrbanVillage.png")
 
 **Slums**
 
-  * History reason: Colonisation (and high temperature?)
-  * Location: outskirts of cities, far from the central business district
+  * History reason: Colonisation 
+  * Location: outskirts of cities, far from the central business district (?)
   * Housing materials: corrugated iron, cardboard, and plastic sheeting
   * Infra and services: lack access to: clean water, sanitation, and healthcare
   
 **Urban Villages**  
 
-  * History reason: Rapid urbanization (and land ownership)
+  * History reason: Rapid urbanization (temperature and land ownership?)
   * Location: city centre or with convenient transportation links
   * Housing structure: old and new buildings
   * Infra and services:  better access although may lacking in some areas.
@@ -347,8 +347,82 @@ knitr::include_graphics("Image/Market.JPG")
 
 **Commercial activities**
 
+* Safaricom payment is highly used even in slum
 * Umbrella can be used for identifying informal trades from SVI
 * High buildings within slums might be considered to be more risky (?)
+
+---
+
+# Observations - Flooding Season
+
+.pull-left[
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('Image/KDI/flood1.JPG')
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/KDI/flood2.JPG")
+```
+]
+
+* Flood duration:   
+rain for 2-3 hours, block for 10-30 mins , longer in the evening, 2-3 times per week   
+* Working time: Monday – Saturday 3-5am to 8pm
+* Commuting: Walking, Matatus, boda-boda
+* Only way to someone's house  
+
+@KDI
+
+---
+
+# Observations - Flooding Season
+
+.pull-left[
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('Image/KDI/flood3.JPG')
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/KDI/flood4.JPG")
+```
+]
+
+### Why is the sign?
+
+---
+
+# Observations - FLooding Cause
+
+.pull-left[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/RiverBed.JPEG")
+```
+]
+
+.pull-right[
+
+### Rainy season
+
+### Industrial area
+
+### Illegal dumping
+
+### Government ignorance
+]
+
+---
+
+# Observations - Trust transects
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Trust.png")
+```
+
+* Key word  from 'Messy maps: Qualitative GIS representations of resilience'
 
 ---
 
@@ -429,39 +503,6 @@ knitr::include_graphics("Image/PSchool1.JPG")
 
 ---
 
-# Observations - FLooding Cause
-
-.pull-left[
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/RiverBed.JPEG")
-```
-]
-
-.pull-right[
-
-## Physical Reason
-
-### Rainy season
-
-### Industry area
-
-### Illegal dumping
-
-### Government ignorance
-]
-
----
-
-# Observations - Trust transects
-
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Trust.png")
-```
-
-* Key word  from 'Messy maps: Qualitative GIS representations of resilience'
-
----
-
 # Data Collected
 
 - City Raster: Flood Risk, Precipitation, SRTM, Vegetation Cover
@@ -507,22 +548,17 @@ knitr::include_graphics("Image/Trust.png")
 
 # Reflections - Indicators for FRA
 
-```{r echo=FALSE, out.width='80%', fig.align='center'}
+```{r echo=FALSE, out.width='90%', fig.align='center'}
 knitr::include_graphics("Image/Indicators.png")
 ```
 
 ---
 
-# Expected Result 
+# Reflections - Expected Result 
 
-2 level of study? for NGO and UN-Habitact
-
----
-
-# Expected Result 
-
-Risk Map
-Frame Work
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Result.png")
+```
 
 ---
 
@@ -531,18 +567,50 @@ class: inverse, center, middle
 # Fun question: 
 # How many seasons do places near the Equator have?
 
-## 2 Winter and 2 Summer? 
+## 2 Winter and 2 Summer
 
 ---
 
-```{r echo=FALSE}
-#read in data
-read_excel(here("tables", "abbreviations.xlsx"))%>%
-  # arrange(Individual) %>%  # i.e. alphabetical order by Term
-  knitr::kable(booktabs = TRUE)%>% 
-  kable_styling(position = "center")%>%
-  # any specifc row changes you want
-    row_spec(., row=0, bold = TRUE)
+class: center, middle
+
+## Welcome: questions, challenges, comments, and suggestions 
+
+```{r echo=FALSE, out.width='40%', fig.align='center'}
+knitr::include_graphics("Image/Salt.png")
+```
+
+Thanks to **Chen** for making this trip possible  
+Thanks to **Qili** for her intermediate feedback  
+
+---
+
+class: inverse, center, middle
+
+# Holiday pics if people are interested
+## 又名：张文澜的小学生春游日记 
+
+---
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Holi/Ineuality.JPG")
+```
+
+---
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Holi/Culture.JPG")
+```
+
+---
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Holi/Animal.JPG")
+```
+
+---
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("Image/Holi/SeaAnimal.JPG")
 ```
 
 ---
