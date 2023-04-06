@@ -85,7 +85,7 @@ library(fontawesome)
 xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 ```
 
-# Last Month Update
+# 2023 Month Update
 - 1 week of field trip & holiday, 2 weeks of marking
 - Meeting: UN-H, Technical University of Kenya (Prof.Luke Olang)
 - PhD story: data injustice identification, Study level
@@ -113,11 +113,7 @@ xaringanExtra::use_logo(
 
 ---
 
-```{r, echo=FALSE}
-xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
-```
-
-# March/April plan 
+# 2023 March/April plan 
 
 - Submit the landuse abstract to CPGIS? 15th March
 
@@ -127,8 +123,6 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 
 - Data request/analysis for KDI and UN-H (Survey) 
 
---
-
 - Marking for two modules
 
 - Data ethical approval
@@ -136,5 +130,28 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 - Contact Faith for meeting, landuse abstract review (ask for help for KDI data?)
 
 - Contact Mark for meeting, course auditing, and arranging upgrade
+
+---
+
+# 2023 M3 Update
+☑️
+ - Abstract review for IC2S2
+ - Requested audit for 2 module from IRDR
+ - Presentation: on it
+
+🦐
+ - 2 weeks of marking, and prob another week
+ - Litereture review: data injustice
+ - Nairobi SVIs preperaration
+ - Meeting kind of arranged
+ - Working for KDI
+
+---
+
+# 2023 M4 Plan
+ - Literature review for data injustice and infromal settlements
+ - Extend the abstract to 6 pages for GIScience
+ - Data ethical approval
+
 
 

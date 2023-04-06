@@ -124,7 +124,7 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='left'}
-knitr::include_graphics('Image/content.JPG')
+knitr::include_graphics('Image/content.jpg')
 ```
 ]
 
@@ -198,7 +198,7 @@ knitr::include_graphics('Image/Allan.jpg')
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics('Image/UN.JPG')
+knitr::include_graphics('Image/UN.jpg')
 ```
 
 #### UN-Habitat:
@@ -232,7 +232,7 @@ knitr::include_graphics('Image/IS_1.jpeg')
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('Image/river.JPG')
+knitr::include_graphics('Image/river.jpg')
 ```
 
 **Kibera**
@@ -244,7 +244,7 @@ knitr::include_graphics('Image/river.JPG')
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/river2.JPG")
+knitr::include_graphics("Image/river2.jpg")
 ```
 
 **Mukuru**
@@ -311,7 +311,7 @@ knitr::include_graphics("Image/UrbanVillage.png")
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('Image/InBridge.JPG')
+knitr::include_graphics('Image/InBridge.jpg')
 ```
 
 **Sewage system**
@@ -321,7 +321,7 @@ knitr::include_graphics('Image/InBridge.JPG')
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Animal.JPG")
+knitr::include_graphics("Image/Animal.jpg")
 ```
 
 **Animals**
@@ -335,13 +335,13 @@ knitr::include_graphics("Image/Animal.JPG")
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('Image/IScommercial.JPG')
+knitr::include_graphics('Image/IScommercial.jpg')
 ```
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Market.JPG")
+knitr::include_graphics("Image/Market.jpg")
 ```
 ]
 
@@ -357,13 +357,13 @@ knitr::include_graphics("Image/Market.JPG")
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('Image/KDI/flood1.JPG')
+knitr::include_graphics('Image/KDI/flood1.jpg')
 ```
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/KDI/flood2.JPG")
+knitr::include_graphics("Image/KDI/flood2.jpg")
 ```
 ]
 
@@ -381,13 +381,13 @@ rain for 2-3 hours, block for 10-30 mins , longer in the evening, 2-3 times per 
 
 .pull-left[
 ```{r echo=FALSE, out.width='100%'}
-knitr::include_graphics('Image/KDI/flood3.JPG')
+knitr::include_graphics('Image/KDI/flood3.jpg')
 ```
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/KDI/flood4.JPG")
+knitr::include_graphics("Image/KDI/flood4.jpg")
 ```
 ]
 
@@ -431,7 +431,7 @@ knitr::include_graphics("Image/Trust.png")
 .pull-left[
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/flag.JPG")
+knitr::include_graphics("Image/flag.jpg")
 ```
 
 **Sanitize facility**
@@ -444,7 +444,7 @@ knitr::include_graphics("Image/flag.JPG")
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/PS2.JPG")
+knitr::include_graphics("Image/PS2.jpg")
 ```
 
 **Meeting room**
@@ -462,7 +462,7 @@ knitr::include_graphics("Image/PS2.JPG")
 .pull-left[
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Gabion.JPG")
+knitr::include_graphics("Image/Gabion.jpg")
 ```
 
 **Gabion**
@@ -471,7 +471,7 @@ knitr::include_graphics("Image/Gabion.JPG")
 
 .pull-right[
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Drainage.JPG")
+knitr::include_graphics("Image/Drainage.jpg")
 ```
 
 **Drainage**
@@ -592,28 +592,26 @@ class: inverse, center, middle
 ---
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Holi/Ineuality.JPG")
+knitr::include_graphics("Image/Holi/Ineuality.jpg")
 ```
 
 ---
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Holi/Culture.JPG")
+knitr::include_graphics("Image/Holi/Culture.jpg")
 ```
 
 ---
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Holi/Animal.JPG")
+knitr::include_graphics("Image/Holi/Animal.jpg")
 ```
 
 ---
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("Image/Holi/SeaAnimal.JPG")
+knitr::include_graphics("Image/Holi/SeaAnimal.jpg")
 ```
-
----
 
 <!--
 ```{r include=FALSE}
